@@ -1,0 +1,21 @@
+# Site settings
+title: Chris Sexton's Web Development Blog
+header-img: img/home-bg.png
+email: champlain2013@gmail.com
+copyright_name: Chris-Sexton
+description: > # this means to ignore newlines until "baseurl:"
+  My Web Development Journey
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  Chris-Sexton
+learn_profile: Chris-Sexton
+email_username: champlain2013@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
